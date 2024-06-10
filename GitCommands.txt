@@ -1,6 +1,10 @@
-git init -> to initialise an empty git repository.
-git status -> to check the tracked and untracked status of all our files. The untracked files which are not yet in the staging area are shown in red. The tracked files are shown in green.
-git log -> to see our previous commits.
-git add <filename> -> to add a file to the staging area. It gets tracked.
-git add . -> adds all the files ibn the working directory to the staging area.
-git commit -m"<message>" -> used to commit a file with a message.
+touch ->                        creates a new file with given name.
+git init ->                     to initialise an empty git repository.
+git status ->                   to check the tracked and untracked status of all our files. The untracked files which are not yet in the staging area are shown in red. The tracked files are shown in green.
+git log ->                      to see our previous commits.
+git add <filename> ->           to add a file to the staging area. It gets tracked.
+git add . ->                    adds all the files ibn the working directory to the staging area.
+git commit -m"<message>" ->     used to commit the files in the staging area with a message.
+git checkout <filename> ->      to revert back or rollback to the last position in our repository.
+git diff <filename> ->          to see the differences in out current repository and the last save point in our repository.
+git remote add origin <url> ->  

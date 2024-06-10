@@ -2,3 +2,4 @@ Learning Git commands and github.
 mkdir -> Creating a new directory.
 ls -> to list all the files.
 ls -a -> to lis all the files including hidden files.
+cd .. -> to move up a directory.
