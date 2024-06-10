@@ -1,0 +1,6 @@
+git init -> to initialise an empty git repository.
+git status -> to check the tracked and untracked status of all our files. The untracked files which are not yet in the staging area are shown in red. The tracked files are shown in green.
+git log -> to see our previous commits.
+git add <filename> -> to add a file to the staging area. It gets tracked.
+git add . -> adds all the files ibn the working directory to the staging area.
+git commit -m"<message>" -> used to commit a file with a message.
