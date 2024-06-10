@@ -7,4 +7,6 @@ git add . ->                    adds all the files ibn the working directory to 
 git commit -m"<message>" ->     used to commit the files in the staging area with a message.
 git checkout <filename> ->      to revert back or rollback to the last position in our repository.
 git diff <filename> ->          to see the differences in out current repository and the last save point in our repository.
-git remote add origin <url> ->  
+git remote add origin <url> ->  used to transfer all the local commits to a remote repository. "origin" is the conventional name for the remote repository, it is the <remote name>. We paste the url of the remote repository.
+git push -u <remote name> <branch name> ->      to push the local repository to the remote repository to the specified branch.                
+git push -u origin main ->      to push the local repository to the remote repository with name "origin" into the main branch.
