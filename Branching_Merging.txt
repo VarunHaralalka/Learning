@@ -1,0 +1,4 @@
+git branch ->                       to list all the branches in the repo.
+git branch <name> ->                to create a new branch.
+git checkout <branch_name> _>       to switch to another branch.
+git 

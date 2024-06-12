@@ -14,3 +14,6 @@ git checkout -b main ->         used to create a new branch in the repository, h
 .gitignore ->                   create a git ignore file that is used to store the names of the files we want git to ignore.
 git clone <url> ->              to create a clone of a github repo on your local machine.
 git checkout <branch_name> ->   to switch to a different branch.
+git branch ->                   to list all the branches in the repo.
+git branch <name> ->            to create a new branch.
+git checkout <branch_name> _>   to switch to another branch.
