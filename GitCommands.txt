@@ -5,9 +5,10 @@ git log ->                      to see our previous commits.
 git add <filename> ->           to add a file to the staging area. It gets tracked.
 git add . ->                    adds all the files ibn the working directory to the staging area.
 git commit -m"<message>" ->     used to commit the files in the staging area with a message.
+git commit -m"<message>" -f ->  used to forecefully commit the files with a message.
 git checkout <filename> ->      to revert back or rollback to the last position in our repository.
 git diff <filename> ->          to see the differences in out current repository and the last save point in our repository.
-git remote add origin <url> ->  used to transfer all the local commits to a remote repository. "origin" is the conventional name for the remote repository, it is the <remote name>. We paste the url of the remote repository.
+git remote add origin <url> ->  used to transfer all the local commits to a remote repository. "origin" is the conventional name for the remote repository(or basically the url of your repo), it is the <remote name>. We paste the url of the remote repository.
 git push -u <remote name> <branch name> ->      to push the local repository to the remote repository to the specified branch.                
 git push -u origin main ->      to push the local repository to the remote repository with name "origin" into the main branch.
 git checkout -b main ->         used to create a new branch in the repository, here namely "main".
@@ -16,4 +17,17 @@ git clone <url> ->              to create a clone of a github repo on your local
 git checkout <branch_name> ->   to switch to a different branch.
 git branch ->                   to list all the branches in the repo.
 git branch <name> ->            to create a new branch.
-git checkout <branch_name> _>   to switch to another branch.
+git checkout <branch_name> ->   to switch to another branch.
+git restore <file> ->           will discard the changes done in the working directory.
+git restore --staged <file>->   will unstage the specified staged file.
+
+TO REMOVE PREVIOUS COMMITS =>   If we want to remove a commit then all the commits after that will also be removed.
+                                We cannot remove a commit from in-between. To remove commits, we have to copy the
+                                hash of the particular commit below it, i.e., the commit before it
+                                and use the command written under.
+git reset <hash> ->             It removes all the commits after the commit whose hash has been used.
+git stash ->                    takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+git stash pop ->                it takes all the changes you have stashed previously, back to the working directory.
+git stash clear ->              to clear(remove) the changes that you have stashed(shelved).
+
+ONE BRANCH CAN HAVE ONLY ONE PULL REQUEST AT A TIME. IF WE ADD NEW COMMITS ONTO THAT BRANCH TOO THEN THAT ALSO GOES INTO THE SAME PULL REQUEST.

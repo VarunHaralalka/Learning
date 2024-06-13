@@ -1,5 +1,16 @@
 Learning Git commands and github.
-mkdir -> Creating a new directory.
-ls -> to list all the files.
-ls -a -> to lis all the files including hidden files.
-cd .. -> to move up a directory.
+mkdir ->                Creating a new directory.
+rmdir ->                removes an empty directory.
+mv ->                   moves files or directories.
+cd ->                   to change the current working directory.
+pwd ->                  prints the present working directory.
+touch ->                creates a new file with given name.
+rm ->                   removes files or directories.
+ls ->                   to list all the files and directories in the current directory.
+ls -a ->                to lis all the files including hidden files.
+cd .. ->                to move up a directory.
+chmod ->                changes the permissions of a file or directory.
+cat ->                  displays the contents of a file.
+head ->                 displays first few lines of a file.
+tail ->                 displays last few lines of a file.
+vi/vim ->               is a powerful text-editor. Open a file with Vim: vim filename. Exit Vim editor: Press Esc, then type :wq and press Enter
